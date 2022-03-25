@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-nav {
+    position: sticky;
+    margin-left: 1140px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #b5aa9d, #e6d9d2, #bb9a75, #ac885d);
+    /*background-image: linear-gradient(to right, #f1f1f1, #f1f1f1);*/
+}
+
+.navbar:hover {
+    background-color: linear-gradient(to right, #524f4d, #2e2a27);
+}
+
+/* #524f4d, #2e2a27*/
+
+.navbar-nav li a {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.navbar-nav li a:hover {
+    color: black;
+    transition-duration: 1s;
+    display: block;
+    font-size: 110%;
+}
+
+
+.container-fluid a {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+#banner {
+    background-image: linear-gradient(to right, #b5aa9d, #d6cabd, #bb9a75, #b49570);
+    /*background-image: url(../images/bg1.jpg);*/
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 650px;
+
+
+}
+
+#banner img {
+    padding: 1%;
+    height: 300px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    margin-top: 5%;
+}
+
+#banner h1 {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+#banner p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#banner .container {
+
+    min-width: 100%;
+    height: 600px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#banner hr {
+    margin-left: 35%;
+    width: 30%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 25%;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.banner-text ul li a i {
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+    padding: 3px;
+    font-size: 33px;
+    margin-right: 2px;
+}
+
+.banner-text i:hover {
+    display: block;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%;
+}
+
+#experience {
+    padding: 80px 0;
+}
+
+#experience .row {
+    box-shadow: inset 5px 5px 5px rgb(0, 0, 0.2),
+        inset -5px -5px 15px rgb(255, 255, 255, 0.1),
+        5px 5px 15px rgb(0, 0, 0, 0.3),
+        -5px -5px 15px rgb(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin: 43px;
+
+}
+
+#experience .col-md-5 {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    border: 2px solid #2a2b2f;
+    border-radius: 15px;
+    transition: .5s;
+    margin: 35px 35px 35px 50px;
+}
+
+#experience .col-md-5:hover {
+    transform: translate(-35px);
+    box-shadow: 0px 40px 60px rgb(0, 0, 0, 0.5);
+}
+
+.exp-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.experience h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/*About me*/
+#about-me {
+    background-color: #f2f1eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.about-title {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#about-me h5 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#about-me p {
+    font-size: 20px;
+
+    text-align: left;
+}
+
+#about-me ul li {
+    list-style: none;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.button {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 1px;
+    height: 30px;
+    background-color: #a8c7c1;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Helvetica Neue", 'Quicksand';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: 3s;
+    background-color: #436862;
+}
+
+#contact {
+    background-color: #fcfafa;
+}
+
+#contact ul {
+    display: flex;
+
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#contact ul li {
+
+    padding: 30px;
+}
+
+#contact h1 {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/*skills*/
+#skills {
+    height: 650px;
+    background-color: #f2f1eb;
+}
+
+#skills h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+
+#skills h3 {
+    padding: 6px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+#skills h4 {
+    margin: 12px;
+}
+
+.html {
+    animation: html 3s infinite;
+}
+
+.css {
+    animation: css 3s infinite;
+}
+
+.db {
+    animation: css 3s infinite;
+}
+
+.c {
+    animation: css 3s infinite;
+
+}
+
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes db {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+.list span {
+    font-weight: 500;
+}
+
+#skills #file {
+    background: #353b48;
+    display: block;
+    border-radius: 3px;
+    height: 8px;
+    margin-left: 240px;
+    width: 200px;
+    box-shadow: 0 0 10px #5f95c9b3;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#skills .col-md-6 {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    border: 2px solid #2a2b2f;
+    border-radius: 15px;
+    transition: .5s;
+
+
+}
+
+.skill {
+    text-align: center;
+    justify-content: center;
+}
+
+#skills ul li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#skills ul {
+    text-align: center;
+    list-style: none;
+}
+
+/*footer*/
+#footer {
+    background-image: linear-gradient(to right, #e3d5ca, #d8b7b7);
+    color: #fff;
+}
